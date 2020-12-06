@@ -1,0 +1,6 @@
+mkdir <ETPB>
+cd <ETPB>
+git init
+heroku login
+heroku create <ETPB>
+heroku buildpacks:set heroku/nodejs
